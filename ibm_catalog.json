@@ -3,7 +3,6 @@
     {
       "label": "stack-template",
       "name": "stack-template",
-      "version": "0.0.1",
       "product_kind": "solution",
       "tags": [
         "converged_infra"
