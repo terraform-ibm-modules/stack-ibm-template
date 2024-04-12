@@ -1,8 +1,8 @@
 {
 	"products": [
 		{
-			"label": "sample-stack",
-			"name": "sample-stack",
+			"label": "stack-template",
+			"name": "stack-template",
 			"version": "0.0.1",
 			"product_kind": "solution",
 			"tags": [

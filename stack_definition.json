@@ -4,54 +4,46 @@
 		{
 			"inputs": [
 				{
-					"name": "service_endpoints",
-					"value": "public-and-private"
-				},
-				{
-					"name": "keys",
-					"value": "[]"
-				},
-				{
-					"name": "existing_resource_group",
-					"value": false
-				},
-				{
-					"name": "key_protect_instance_name",
-					"value": "base-security-services-kms"
+					"name": "resource_group",
+					"value": "__NULL__"
 				},
 				{
 					"name": "resource_tags",
-					"value": "[\"demo\"]"
-				},
-				{
-					"name": "region",
-					"value": "us-south"
-				},
-				{
-					"name": "access_tags",
 					"value": "[]"
 				},
 				{
-					"name": "resource_group_name",
-					"value": "ref:/environments/demo/inputs/resource_group_name"
+					"name": "testing",
+					"value": "__NULL__"
 				},
 				{
-					"name": "existing_kms_guid",
-					"value": "__NULL__"
+					"name": "prefix",
+					"value": "mock"
 				}
 			],
-			"name": "deploy-arch-ibm-kms-93b7-copy-01",
-			"version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.ca2f4442-aace-436a-a088-78c0b6274d41"
+			"name": "primary-da",
+			"version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.a8887a40-ff3f-4ee8-bcfe-bcfd55360074"
 		},
 		{
 			"inputs": [
 				{
-					"name": "resource_group_name",
-					"value": "ref:/environments/demo/inputs/resource_group_name"
+					"name": "resource_group",
+					"value": "ref:/configs/primary-da/outputs/resource_group"
+				},
+				{
+					"name": "resource_tags",
+					"value": "[]"
+				},
+				{
+					"name": "testing",
+					"value": "__NULL__"
+				},
+				{
+					"name": "prefix",
+					"value": "secondary"
 				}
 			],
-			"name": "deploy-arch-ibm-secrets-manager-dead-copy-01",
-			"version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.54169625-7587-4e74-b0bd-eeef4eff945e"
+			"name": "secondary-da",
+			"version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.a8887a40-ff3f-4ee8-bcfe-bcfd55360074"
 		}
 	]
 }
