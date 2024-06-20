@@ -11,11 +11,8 @@ import (
 func TestProjectsFullTest(t *testing.T) {
 
 	options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
-		Testing: t,
-		StackConfigurationOrder: []string{
-			"primary-da",
-			"secondary-da",
-		},
+		Testing:        t,
+		ParallelDeploy: true,
 	})
 	options.StackMemberInputs = map[string]map[string]interface{}{
 		"primary-da": {
