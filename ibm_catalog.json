@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "label": "stack-template",
-      "name": "stack-template",
+      "label": "Mock-Stack",
+      "name": "Mock-Stack",
       "product_kind": "solution",
       "tags": [
         "converged_infra"
@@ -10,8 +10,28 @@
       "offering_icon_url": "https://globalcatalog.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/solution.svg",
       "flavors": [
         {
-          "compliance": {},
-          "architecture": {}
+          "architecture": {
+            "diagrams": [
+              {
+                "diagram": {
+                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG%20Pattern%20v2-part-2.svg",
+                  "caption": "sd",
+                  "type": "image/svg+xml",
+                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG%20Pattern%20v2-part-2.svg"
+                },
+                "description": "ds"
+              }
+            ]
+          },
+          "configuration": [
+            {
+              "key": "prefix",
+              "type": "string",
+              "default_value": "mock",
+              "required": false
+            }
+          ],
+          "install_type": "fullstack"
         }
       ]
     }
