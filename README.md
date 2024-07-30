@@ -4,7 +4,7 @@
 <!--
 Update status and "latest release" badges:
   1. For the status options, see https://terraform-ibm-modules.github.io/documentation/#/badge-status
-  2. Update the "latest release" badge to point to the correct module's repo. Replace "terraform-ibm-module-template" in two places.
+  2. Update the "latest release" badge to point to the correct module's repo. Replace "stack-ibm-template" in two places.
 -->
 [![Incubating (Not yet consumable)](https://img.shields.io/badge/status-Incubating%20(Not%20yet%20consumable)-red)](https://terraform-ibm-modules.github.io/documentation/#/badge-status)
 [![latest release](https://img.shields.io/github/v/release/terraform-ibm-modules/stack-ibm-template?logo=GitHub&sort=semver)](https://github.com/terraform-ibm-modules/stack-ibm-template/releases/latest)
