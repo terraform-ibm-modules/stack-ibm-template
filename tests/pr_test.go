@@ -23,7 +23,7 @@ func TestProjectsFullTest(t *testing.T) {
 
 	// Test inputs override all other input values from the stack definiton and the ibm_catalog.json
 	options.StackMemberInputs = map[string]map[string]interface{}{ // Set the inputs for the stack members
-		"primary-da": {
+		"1a-primary-da": {
 			"prefix": fmt.Sprintf("p%s", options.Prefix),
 		},
 		"secondary-da": {
