@@ -11,7 +11,8 @@
       "flavors": [
         {
           "compliance": {},
-          "architecture": {}
+          "architecture": {},
+          "terraform_version": "1.12.2"
         }
       ]
     }
