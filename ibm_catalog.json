@@ -11,7 +11,8 @@
       "flavors": [
         {
           "compliance": {},
-          "architecture": {}
+          "architecture": {},
+          "ignore_readme": true
         }
       ]
     }
