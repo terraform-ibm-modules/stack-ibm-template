@@ -264,8 +264,8 @@ github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO
 github.com/stretchr/testify v1.8.2/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/terraform-ibm-modules/ibmcloud-terratest-wrapper v1.60.34 h1:eED28nDc2If2KjsEi5VBAUt0at+FxVJw/lUcwzeW8Ck=
-github.com/terraform-ibm-modules/ibmcloud-terratest-wrapper v1.60.34/go.mod h1:VCaRJKjjwIqWMdXqMwvC/9WCwWe8lBTRZrkYrQbcNUU=
+github.com/terraform-ibm-modules/ibmcloud-terratest-wrapper v1.61.2 h1:GEDNJCyDS7mRepOTSxDpmJKVmiRUSFy3u9biQ4ZYxzc=
+github.com/terraform-ibm-modules/ibmcloud-terratest-wrapper v1.61.2/go.mod h1:VCaRJKjjwIqWMdXqMwvC/9WCwWe8lBTRZrkYrQbcNUU=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/xanzy/ssh-agent v0.3.3 h1:+/15pJfg/RsTxqYcX6fHqOXZwwMP+2VyYWJeWM2qQFM=
 github.com/xanzy/ssh-agent v0.3.3/go.mod h1:6dzNDKs0J9rVPHPhaGCukekBHKqfl+L3KghI1Bc68Uw=
