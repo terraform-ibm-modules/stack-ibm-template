@@ -21,7 +21,7 @@ func TestProjectsFullTest(t *testing.T) {
 		CatalogFlavorName:    "stack-template", // Set the Flavor name from the ibm_catalog.json, for any configurations set here the default values will be applied to the stack
 	})
 
-	// Test inputs override all other input values from the stack definiton and the ibm_catalog.json
+	// Test inputs override all other input values from the stack definition and the ibm_catalog.json
 	options.StackMemberInputs = map[string]map[string]interface{}{ // Set the inputs for the stack members
 		"1a-primary-da": {
 			"prefix": fmt.Sprintf("p%s", options.Prefix),
