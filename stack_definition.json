@@ -38,7 +38,7 @@
         }
       ],
       "name": "primary-da",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.df1653f4-d2aa-40fe-8837-340211ec7203"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.2cf4693d-d1ef-41ce-a6c9-ad4dd4a569ad"
     },
     {
       "inputs": [
@@ -64,7 +64,7 @@
         }
       ],
       "name": "secondary-da",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.df1653f4-d2aa-40fe-8837-340211ec7203"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.2cf4693d-d1ef-41ce-a6c9-ad4dd4a569ad"
     }
   ]
 }
